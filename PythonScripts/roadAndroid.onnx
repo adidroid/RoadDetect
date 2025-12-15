@@ -1,0 +1,666 @@
+
+pytorch	2.9.1+cpu:ù”
+∂
+input
+model.downsample.0.weight
+model.downsample.0.biasgetitemnode_Conv_49"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@@@@†
+•	
+getitemrelu	node_relu"ReluJ≈
+	namespace∑: __main__.FastSCNNExport/model: __main__.FastSCNN/model.downsample: torch.nn.modules.container.Sequential/model.downsample.2: torch.nn.modules.activation.ReLU/relu: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchyí['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']JÑ
+pkg.torch.onnx.fx_nodej%relu : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem,), kwargs = {})J]
+pkg.torch.onnx.name_scopes?['', 'model', 'model.downsample', 'model.downsample.2', 'relu']Jú
+pkg.torch.onnx.stack_trace˝File "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 156, in forward
+    down = self.downsample(x)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+∑
+relu
+model.downsample.3.weight
+model.downsample.3.bias	getitem_3node_Conv_50"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@@@@†
+≥	
+	getitem_3relu_1node_relu_1"ReluJ«
+	namespaceπ: __main__.FastSCNNExport/model: __main__.FastSCNN/model.downsample: torch.nn.modules.container.Sequential/model.downsample.5: torch.nn.modules.activation.ReLU/relu_1: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchyí['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jà
+pkg.torch.onnx.fx_noden%relu_1 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_3,), kwargs = {})J_
+pkg.torch.onnx.name_scopesA['', 'model', 'model.downsample', 'model.downsample.5', 'relu_1']Jú
+pkg.torch.onnx.stack_trace˝File "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 156, in forward
+    down = self.downsample(x)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+π
+relu_1
+model.downsample.6.weight
+model.downsample.6.bias	getitem_6node_Conv_51"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@@@@†
+≥	
+	getitem_6relu_2node_relu_2"ReluJ«
+	namespaceπ: __main__.FastSCNNExport/model: __main__.FastSCNN/model.downsample: torch.nn.modules.container.Sequential/model.downsample.8: torch.nn.modules.activation.ReLU/relu_2: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchyí['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jà
+pkg.torch.onnx.fx_noden%relu_2 : [num_users=2] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_6,), kwargs = {})J_
+pkg.torch.onnx.name_scopesA['', 'model', 'model.downsample', 'model.downsample.8', 'relu_2']Jú
+pkg.torch.onnx.stack_trace˝File "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 156, in forward
+    down = self.downsample(x)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+´
+relu_2
+model.gfe.0.weight
+model.gfe.0.bias	getitem_9node_Conv_52"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@@@@†
+í	
+	getitem_9relu_3node_relu_3"ReluJπ
+	namespace´: __main__.FastSCNNExport/model: __main__.FastSCNN/model.gfe: torch.nn.modules.container.Sequential/model.gfe.2: torch.nn.modules.activation.ReLU/relu_3: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchyí['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jà
+pkg.torch.onnx.fx_noden%relu_3 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_9,), kwargs = {})JQ
+pkg.torch.onnx.name_scopes3['', 'model', 'model.gfe', 'model.gfe.2', 'relu_3']Jó
+pkg.torch.onnx.stack_trace¯File "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 157, in forward
+    gfe = self.gfe(down)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+¨
+relu_3
+model.gfe.3.weight
+model.gfe.3.bias
+getitem_12node_Conv_53"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@@@@†
+î	
+
+getitem_12relu_4node_relu_4"ReluJπ
+	namespace´: __main__.FastSCNNExport/model: __main__.FastSCNN/model.gfe: torch.nn.modules.container.Sequential/model.gfe.5: torch.nn.modules.activation.ReLU/relu_4: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchyí['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_4 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_12,), kwargs = {})JQ
+pkg.torch.onnx.name_scopes3['', 'model', 'model.gfe', 'model.gfe.5', 'relu_4']Jó
+pkg.torch.onnx.stack_trace¯File "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 157, in forward
+    gfe = self.gfe(down)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+¨
+relu_4
+model.gfe.6.weight
+model.gfe.6.bias
+getitem_15node_Conv_54"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@@@@†
+î	
+
+getitem_15relu_5node_relu_5"ReluJπ
+	namespace´: __main__.FastSCNNExport/model: __main__.FastSCNN/model.gfe: torch.nn.modules.container.Sequential/model.gfe.8: torch.nn.modules.activation.ReLU/relu_5: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchyí['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_5 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_15,), kwargs = {})JQ
+pkg.torch.onnx.name_scopes3['', 'model', 'model.gfe', 'model.gfe.8', 'relu_5']Jó
+pkg.torch.onnx.stack_trace¯File "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 157, in forward
+    gfe = self.gfe(down)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+ﬁ	
+relu_5
+val_28mean	node_mean"
+ReduceMean*
+keepdims†*
+noop_with_empty_axes †JΩ
+	namespaceØ: __main__.FastSCNNExport/model: __main__.FastSCNN/model.gfe: torch.nn.modules.container.Sequential/model.gfe.9: torch.nn.modules.pooling.AdaptiveAvgPool2d/mean: aten.mean.dimJª
+pkg.torch.onnx.class_hierarchyò['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.AdaptiveAvgPool2d', 'aten.mean.dim']Jé
+pkg.torch.onnx.fx_nodet%mean : [num_users=1] = call_function[target=torch.ops.aten.mean.dim](args = (%relu_5, [-1, -2], True), kwargs = {})JO
+pkg.torch.onnx.name_scopes1['', 'model', 'model.gfe', 'model.gfe.9', 'mean']J†
+pkg.torch.onnx.stack_traceÅFile "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 157, in forward
+    gfe = self.gfe(down)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\pooling.py", line 1500, in forward
+    return F.adaptive_avg_pool2d(input, self.output_size)
+Œ
+mean
+ 
+ 
+val_32upsample_bilinear2dnode_upsample_bilinear2d"Resize*
+mode"linear†*
+cubic_coeff_a  @ø†*7
+coordinate_transformation_mode"pytorch_half_pixel†*
+exclude_outside †*
+nearest_mode"floor†*
+	antialias †*
+extrapolation_value    †*&
+keep_aspect_ratio_policy"stretch†Jq
+	namespaced: __main__.FastSCNNExport/model: __main__.FastSCNN/upsample_bilinear2d: aten.upsample_bilinear2d.vecJr
+pkg.torch.onnx.class_hierarchyP['__main__.FastSCNNExport', '__main__.FastSCNN', 'aten.upsample_bilinear2d.vec']J≤
+pkg.torch.onnx.fx_nodeó%upsample_bilinear2d : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%mean, [64, 64], False, None), kwargs = {})JB
+pkg.torch.onnx.name_scopes$['', 'model', 'upsample_bilinear2d']J≤
+pkg.torch.onnx.stack_traceìFile "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 158, in forward
+    gfe_up = F.interpolate(gfe, size=down.size()[2:], mode="bilinear", align_corners=False)
+Ÿ
+relu_2
+upsample_bilinear2dcatnode_cat"Concat*
+axis†JU
+	namespaceH: __main__.FastSCNNExport/model: __main__.FastSCNN/cat: aten.cat.defaultJf
+pkg.torch.onnx.class_hierarchyD['__main__.FastSCNNExport', '__main__.FastSCNN', 'aten.cat.default']Jú
+pkg.torch.onnx.fx_nodeÅ%cat : [num_users=1] = call_function[target=torch.ops.aten.cat.default](args = ([%relu_2, %upsample_bilinear2d], 1), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'model', 'cat']JÉ
+pkg.torch.onnx.stack_trace‰File "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 160, in forward
+    fused = torch.cat([down, gfe_up], dim=1)
+´
+cat
+model.fuse.0.weight
+model.fuse.0.bias
+getitem_18node_Conv_55"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@ @ @ @ †
+ú	
+
+getitem_18relu_6node_relu_6"ReluJª
+	namespace≠: __main__.FastSCNNExport/model: __main__.FastSCNN/model.fuse: torch.nn.modules.container.Sequential/model.fuse.2: torch.nn.modules.activation.ReLU/relu_6: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchyí['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_6 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_18,), kwargs = {})JS
+pkg.torch.onnx.name_scopes5['', 'model', 'model.fuse', 'model.fuse.2', 'relu_6']Jõ
+pkg.torch.onnx.stack_trace¸File "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 161, in forward
+    fused = self.fuse(fused)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+∫
+relu_6
+model.classifier.0.weight
+model.classifier.0.bias
+getitem_21node_Conv_56"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@@@@†
+∏	
+
+getitem_21relu_7node_relu_7"ReluJ«
+	namespaceπ: __main__.FastSCNNExport/model: __main__.FastSCNN/model.classifier: torch.nn.modules.container.Sequential/model.classifier.2: torch.nn.modules.activation.ReLU/relu_7: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchyí['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_7 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_21,), kwargs = {})J_
+pkg.torch.onnx.name_scopesA['', 'model', 'model.classifier', 'model.classifier.2', 'relu_7']Jü
+pkg.torch.onnx.stack_traceÄFile "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 163, in forward
+    out = self.classifier(fused)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+å
+relu_7
+model.classifier.3.weight
+model.classifier.3.biasconv2d_8node_conv2d_8"Conv*
+group†*
+auto_pad"NOTSET†*
+	dilations@@†*
+strides@@†*
+pads@ @ @ @ †J«
+	namespaceπ: __main__.FastSCNNExport/model: __main__.FastSCNN/model.classifier: torch.nn.modules.container.Sequential/model.classifier.3: torch.nn.modules.conv.Conv2d/conv2d_8: aten.conv2d.defaultJ≥
+pkg.torch.onnx.class_hierarchyê['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J√
+pkg.torch.onnx.fx_node®%conv2d_8 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_7, %p_model_classifier_3_weight, %p_model_classifier_3_bias), kwargs = {})Ja
+pkg.torch.onnx.name_scopesC['', 'model', 'model.classifier', 'model.classifier.3', 'conv2d_8']Jß
+pkg.torch.onnx.stack_traceàFile "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 163, in forward
+    out = self.classifier(fused)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\conv.py", line 548, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+‘
+conv2d_8
+ 
+ 
+val_44upsample_bilinear2d_1node_upsample_bilinear2d_1"Resize*
+mode"linear†*
+cubic_coeff_a  @ø†*7
+coordinate_transformation_mode"pytorch_half_pixel†*
+exclude_outside †*
+nearest_mode"floor†*
+	antialias †*
+extrapolation_value    †*&
+keep_aspect_ratio_policy"stretch†Js
+	namespacef: __main__.FastSCNNExport/model: __main__.FastSCNN/upsample_bilinear2d_1: aten.upsample_bilinear2d.vecJr
+pkg.torch.onnx.class_hierarchyP['__main__.FastSCNNExport', '__main__.FastSCNN', 'aten.upsample_bilinear2d.vec']J∫
+pkg.torch.onnx.fx_nodeü%upsample_bilinear2d_1 : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%conv2d_8, [512, 512], False, None), kwargs = {})JD
+pkg.torch.onnx.name_scopes&['', 'model', 'upsample_bilinear2d_1']J§
+pkg.torch.onnx.stack_traceÖFile "C:\vs code\finalProject\androidConvert.py", line 256, in forward
+    out = self.model(x)  # [N, C, H, W]
+  File "C:\vs code\finalProject\androidConvert.py", line 164, in forward
+    out = F.interpolate(out, size=size, mode="bilinear", align_corners=False)
+Å
+upsample_bilinear2d_1masknode_argmax"ArgMax*
+axis†*
+keepdims†*
+select_last_index †JB
+	namespace5: __main__.FastSCNNExport/argmax: aten.argmax.defaultJT
+pkg.torch.onnx.class_hierarchy2['__main__.FastSCNNExport', 'aten.argmax.default']Jü
+pkg.torch.onnx.fx_nodeÑ%argmax : [num_users=1] = call_function[target=torch.ops.aten.argmax.default](args = (%upsample_bilinear2d_1, 1, True), kwargs = {})J,
+pkg.torch.onnx.name_scopes['', 'argmax']J™
+pkg.torch.onnx.stack_traceãFile "C:\vs code\finalProject\androidConvert.py", line 257, in forward
+    out = torch.argmax(out, dim=1, keepdim=True)  # ‚Üí [N, 1, H, W]
+main_graph*j Bmodel.downsample.0.weightj!
+locationroadAndroid.onnx.dataj
+offset4480j
+length3456p*† Bmodel.downsample.0.biasJÄ‡d¶?Ú¶æÃ‹’?òî¨?¢Éø⁄w
+?≈Oã>Vª9ø√~?¨S◊?'dB>wàΩ” ø7ß>î'Kæs´ìæ•Á]ø}]ó?¨ïõø©◊∂?$X‡>J‰¿?¿Ì?Ÿ√V=ˇ^F?å-7?„ZÚø,äø˚C>øÿù•>B.∂ø ÑÜø*‡0Bmodel.downsample.3.biasJ¿rv"?∂(øá0øaPõ?€ÄCøL‰ò?;G°?}ä·Ω~ÚèøXøB?å?I.øUKæ‘⁄<…»Ø=W8?•?Ω¥ÒF?´∆ˇ>€6†æ¡˛Z>ìúÖΩˇ~øOºêΩÓ˙>,≠>rK¥æY)øA,O>çπøÔó™ºª/[=NÙUæ⁄/$?†∆>TB+?®Õ˛>—ñà?≥Gìø(Õ·æ%æ‹[øÚÿ≥?™æqø.§â?1ÎÅøÜΩ2ØPø*†@Bmodel.downsample.6.biasJÄÅ á>Û»ñøªéà>º1“æ÷Â:øêA?T√î?Èæ≤≥Ïæ}<?9¶?1
+?|ë?Kªû?Püc<`ì øo∆?æˇB>ó -?ÙÛ∂>‹ˇæiA?∞9øøô„>p0øúƒæ£|®>8K≥>ÛÅÙ?ulæöúbæT¬?øBBø‡≈H?‡iÎ>tîÉæ5&Üøöñø´€◊?ﬂ|•?ñ˙Ÿ?Ü«r>Œ…?ø„6?IÈ3@@®Ωuøo¡Ω/ı?4û!?CÂŸ>P3Qøπqû?V™[øÄt&;Ëá◊>®∆D?p^ªj‘¡æ∫D#øˇæ<?'N>∆?”><H·æ*ô@Bmodel.gfe.0.biasJÄﬂÃ?XÊ)ΩZµç<Fò>+Ã>Äê?~Wc?
+Nò>˝ï?Gh?ßd>éß?l
+?Øì≤ΩÚ¶T?°‰>*#Iæ&))>c>≠û?à"?VnA?Úÿ>åû;-æ>nc+?^π=Ï\>éÆq?<:|ºDî¯>óÜÜ>∆F√<
+vW>∆Bâ?ÏåC?2c=‘VF?x∑ı=◊;?UX?9÷‰>Üøc?¢ 8?ˆu8>"<Ö°?t<‘=∏è>í]?DÏæ¨oßΩΩk ?™Ø9æ	Ó>dgX> ’‰9Ç2æ…v∫=≈ŒM>BzA>û{•?K„ìΩ∑—+?*W`Bmodel.gfe.3.biasj!
+locationroadAndroid.onnx.dataj
+offset0j
+length384p*ZÄBmodel.gfe.6.biasj!
+locationroadAndroid.onnx.dataj
+offset384j
+length512p*[ÄBmodel.fuse.0.biasj!
+locationroadAndroid.onnx.dataj
+offset896j
+length512p*bÄBmodel.classifier.0.biasj!
+locationroadAndroid.onnx.dataj
+offset1408j
+length512p*kÄBmodel.classifier.3.weightj!
+locationroadAndroid.onnx.dataj
+offset1920j
+length2560p*3Bmodel.classifier.3.biasJïä¥<≠ê‰<∞ÒºΩãΩ»SΩ*k0 Bmodel.downsample.3.weightj!
+locationroadAndroid.onnx.dataj
+offset7936j
+length55296p*n@0Bmodel.downsample.6.weightj!
+locationroadAndroid.onnx.dataj
+offset161536j
+length110592p*g@@Bmodel.gfe.0.weightj!
+locationroadAndroid.onnx.dataj
+offset272128j
+length147456p*g`@Bmodel.gfe.3.weightj!
+locationroadAndroid.onnx.dataj
+offset419584j
+length221184p*hÄ`Bmodel.gfe.6.weightj!
+locationroadAndroid.onnx.dataj
+offset640768j
+length442368p*hÄ¿Bmodel.fuse.0.weightj!
+locationroadAndroid.onnx.dataj
+offset63232j
+length98304p*qÄÄBmodel.classifier.0.weightj!
+locationroadAndroid.onnx.dataj
+offset1083136j
+length589824p*Bval_28Jˇˇˇˇˇˇˇˇ˛ˇˇˇˇˇˇˇ*.Bval_32J        Ä       @       @       *.Bval_44J                             Z«
+input
+
+
+
+Ä
+Ä"=
+/pkg.torch.export.graph_signature.InputSpec.kind
+USER_INPUT"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"&
+!pkg.torch.onnx.original_node_namexbé
+mask
+
+
+
+Ä
+Ä"?
+0pkg.torch.export.graph_signature.OutputSpec.kindUSER_OUTPUT"+
+!pkg.torch.onnx.original_node_nameargmaxj3
+model.downsample.0.weight
+
+ 
+
+
+j%
+model.downsample.0.bias
+
+
+ j%
+model.downsample.3.bias
+
+
+0j%
+model.downsample.6.bias
+
+
+@j
+model.gfe.0.bias
+
+
+@j
+model.gfe.3.bias
+
+
+`j
+model.gfe.6.bias
+	
+Äj 
+model.fuse.0.bias
+	
+Äj&
+model.classifier.0.bias
+	
+ÄjÛ
+model.classifier.3.weight
+
+
+Ä
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"@
+!pkg.torch.onnx.original_node_namep_model_classifier_3_weightj‚
+model.classifier.3.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone">
+!pkg.torch.onnx.original_node_namep_model_classifier_3_biasj3
+model.downsample.3.weight
+
+0
+ 
+
+j3
+model.downsample.6.weight
+
+@
+0
+
+j,
+model.gfe.0.weight
+
+@
+@
+
+j,
+model.gfe.3.weight
+
+`
+@
+
+j-
+model.gfe.6.weight
+
+Ä
+`
+
+j/
+model.fuse.0.weight
+
+Ä
+¿
+
+j5
+model.classifier.0.weight
+
+Ä
+Ä
+
+jR
+val_28
+
+
+"<
+$pkg.onnxscript.optimizer.folded_from['val_26', 'val_27']jd
+val_32
+
+
+"N
+$pkg.onnxscript.optimizer.folded_from&['mean', 'val_29', 'val_30', 'val_31']jh
+val_44
+
+
+"R
+$pkg.onnxscript.optimizer.folded_from*['conv2d_8', 'val_41', 'val_42', 'val_43']j#
+getitem
+
+
+ 
+Ä
+Äj 
+relu
+
+
+ 
+Ä
+Äj%
+	getitem_3
+
+
+0
+Ä
+Äj"
+relu_1
+
+
+0
+Ä
+Äj#
+	getitem_6
+
+
+@
+@
+@j 
+relu_2
+
+
+@
+@
+@j#
+	getitem_9
+
+
+@
+@
+@j 
+relu_3
+
+
+@
+@
+@j$
+
+getitem_12
+
+
+`
+@
+@j 
+relu_4
+
+
+`
+@
+@j%
+
+getitem_15
+
+
+Ä
+@
+@j!
+relu_5
+
+
+Ä
+@
+@j
+mean
+
+
+Ä
+
+j.
+upsample_bilinear2d
+
+
+Ä
+@
+@j
+cat
+
+
+¿
+@
+@j%
+
+getitem_18
+
+
+Ä
+@
+@j!
+relu_6
+
+
+Ä
+@
+@j%
+
+getitem_21
+
+
+Ä
+@
+@j!
+relu_7
+
+
+Ä
+@
+@j"
+conv2d_8
+
+
+
+@
+@j1
+upsample_bilinear2d_1
+
+
+
+Ä
+ÄÇ™$
+0pkg.torch.export.ExportedProgram.graph_signatureı#
+# inputs
+p_model_downsample_0_weight: PARAMETER target='model.downsample.0.weight'
+p_model_downsample_0_bias: PARAMETER target='model.downsample.0.bias'
+p_model_downsample_1_weight: PARAMETER target='model.downsample.1.weight'
+p_model_downsample_1_bias: PARAMETER target='model.downsample.1.bias'
+p_model_downsample_3_weight: PARAMETER target='model.downsample.3.weight'
+p_model_downsample_3_bias: PARAMETER target='model.downsample.3.bias'
+p_model_downsample_4_weight: PARAMETER target='model.downsample.4.weight'
+p_model_downsample_4_bias: PARAMETER target='model.downsample.4.bias'
+p_model_downsample_6_weight: PARAMETER target='model.downsample.6.weight'
+p_model_downsample_6_bias: PARAMETER target='model.downsample.6.bias'
+p_model_downsample_7_weight: PARAMETER target='model.downsample.7.weight'
+p_model_downsample_7_bias: PARAMETER target='model.downsample.7.bias'
+p_model_gfe_0_weight: PARAMETER target='model.gfe.0.weight'
+p_model_gfe_0_bias: PARAMETER target='model.gfe.0.bias'
+p_model_gfe_1_weight: PARAMETER target='model.gfe.1.weight'
+p_model_gfe_1_bias: PARAMETER target='model.gfe.1.bias'
+p_model_gfe_3_weight: PARAMETER target='model.gfe.3.weight'
+p_model_gfe_3_bias: PARAMETER target='model.gfe.3.bias'
+p_model_gfe_4_weight: PARAMETER target='model.gfe.4.weight'
+p_model_gfe_4_bias: PARAMETER target='model.gfe.4.bias'
+p_model_gfe_6_weight: PARAMETER target='model.gfe.6.weight'
+p_model_gfe_6_bias: PARAMETER target='model.gfe.6.bias'
+p_model_gfe_7_weight: PARAMETER target='model.gfe.7.weight'
+p_model_gfe_7_bias: PARAMETER target='model.gfe.7.bias'
+p_model_fuse_0_weight: PARAMETER target='model.fuse.0.weight'
+p_model_fuse_0_bias: PARAMETER target='model.fuse.0.bias'
+p_model_fuse_1_weight: PARAMETER target='model.fuse.1.weight'
+p_model_fuse_1_bias: PARAMETER target='model.fuse.1.bias'
+p_model_classifier_0_weight: PARAMETER target='model.classifier.0.weight'
+p_model_classifier_0_bias: PARAMETER target='model.classifier.0.bias'
+p_model_classifier_1_weight: PARAMETER target='model.classifier.1.weight'
+p_model_classifier_1_bias: PARAMETER target='model.classifier.1.bias'
+p_model_classifier_3_weight: PARAMETER target='model.classifier.3.weight'
+p_model_classifier_3_bias: PARAMETER target='model.classifier.3.bias'
+b_model_downsample_1_running_mean: BUFFER target='model.downsample.1.running_mean' persistent=True
+b_model_downsample_1_running_var: BUFFER target='model.downsample.1.running_var' persistent=True
+b_model_downsample_1_num_batches_tracked: BUFFER target='model.downsample.1.num_batches_tracked' persistent=True
+b_model_downsample_4_running_mean: BUFFER target='model.downsample.4.running_mean' persistent=True
+b_model_downsample_4_running_var: BUFFER target='model.downsample.4.running_var' persistent=True
+b_model_downsample_4_num_batches_tracked: BUFFER target='model.downsample.4.num_batches_tracked' persistent=True
+b_model_downsample_7_running_mean: BUFFER target='model.downsample.7.running_mean' persistent=True
+b_model_downsample_7_running_var: BUFFER target='model.downsample.7.running_var' persistent=True
+b_model_downsample_7_num_batches_tracked: BUFFER target='model.downsample.7.num_batches_tracked' persistent=True
+b_model_gfe_1_running_mean: BUFFER target='model.gfe.1.running_mean' persistent=True
+b_model_gfe_1_running_var: BUFFER target='model.gfe.1.running_var' persistent=True
+b_model_gfe_1_num_batches_tracked: BUFFER target='model.gfe.1.num_batches_tracked' persistent=True
+b_model_gfe_4_running_mean: BUFFER target='model.gfe.4.running_mean' persistent=True
+b_model_gfe_4_running_var: BUFFER target='model.gfe.4.running_var' persistent=True
+b_model_gfe_4_num_batches_tracked: BUFFER target='model.gfe.4.num_batches_tracked' persistent=True
+b_model_gfe_7_running_mean: BUFFER target='model.gfe.7.running_mean' persistent=True
+b_model_gfe_7_running_var: BUFFER target='model.gfe.7.running_var' persistent=True
+b_model_gfe_7_num_batches_tracked: BUFFER target='model.gfe.7.num_batches_tracked' persistent=True
+b_model_fuse_1_running_mean: BUFFER target='model.fuse.1.running_mean' persistent=True
+b_model_fuse_1_running_var: BUFFER target='model.fuse.1.running_var' persistent=True
+b_model_fuse_1_num_batches_tracked: BUFFER target='model.fuse.1.num_batches_tracked' persistent=True
+b_model_classifier_1_running_mean: BUFFER target='model.classifier.1.running_mean' persistent=True
+b_model_classifier_1_running_var: BUFFER target='model.classifier.1.running_var' persistent=True
+b_model_classifier_1_num_batches_tracked: BUFFER target='model.classifier.1.num_batches_tracked' persistent=True
+x: USER_INPUT
+
+# outputs
+argmax: USER_OUTPUT
+Ç8
+2pkg.torch.export.ExportedProgram.range_constraints{}B
+ 

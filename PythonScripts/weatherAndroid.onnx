@@ -1,0 +1,664 @@
+
+pytorch	2.9.1+cpu:çÒ
+¶
+input
+model.downsample.0.weight
+model.downsample.0.biasgetitemnode_Conv_49"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@@@@ 
+Ÿ	
+getitemrelu	node_relu"ReluJÅ
+	namespace·: __main__.FastSCNNExport/model: __main__.FastSCNN/model.downsample: torch.nn.modules.container.Sequential/model.downsample.2: torch.nn.modules.activation.ReLU/relu: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchy’['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J„
+pkg.torch.onnx.fx_nodej%relu : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem,), kwargs = {})J]
+pkg.torch.onnx.name_scopes?['', 'model', 'model.downsample', 'model.downsample.2', 'relu']J–
+pkg.torch.onnx.stack_trace÷File "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 186, in forward
+    down = self.downsample(x)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+·
+relu
+model.downsample.3.weight
+model.downsample.3.bias	getitem_3node_Conv_50"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@@@@ 
+­	
+	getitem_3relu_1node_relu_1"ReluJÇ
+	namespace¹: __main__.FastSCNNExport/model: __main__.FastSCNN/model.downsample: torch.nn.modules.container.Sequential/model.downsample.5: torch.nn.modules.activation.ReLU/relu_1: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchy’['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jˆ
+pkg.torch.onnx.fx_noden%relu_1 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_3,), kwargs = {})J_
+pkg.torch.onnx.name_scopesA['', 'model', 'model.downsample', 'model.downsample.5', 'relu_1']J–
+pkg.torch.onnx.stack_trace÷File "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 186, in forward
+    down = self.downsample(x)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+¹
+relu_1
+model.downsample.6.weight
+model.downsample.6.bias	getitem_6node_Conv_51"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@@@@ 
+­	
+	getitem_6relu_2node_relu_2"ReluJÇ
+	namespace¹: __main__.FastSCNNExport/model: __main__.FastSCNN/model.downsample: torch.nn.modules.container.Sequential/model.downsample.8: torch.nn.modules.activation.ReLU/relu_2: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchy’['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jˆ
+pkg.torch.onnx.fx_noden%relu_2 : [num_users=2] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_6,), kwargs = {})J_
+pkg.torch.onnx.name_scopesA['', 'model', 'model.downsample', 'model.downsample.8', 'relu_2']J–
+pkg.torch.onnx.stack_trace÷File "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 186, in forward
+    down = self.downsample(x)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+«
+relu_2
+model.gfe.0.weight
+model.gfe.0.bias	getitem_9node_Conv_52"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@@@@ 
+Œ	
+	getitem_9relu_3node_relu_3"ReluJ¹
+	namespace«: __main__.FastSCNNExport/model: __main__.FastSCNN/model.gfe: torch.nn.modules.container.Sequential/model.gfe.2: torch.nn.modules.activation.ReLU/relu_3: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchy’['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jˆ
+pkg.torch.onnx.fx_noden%relu_3 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_9,), kwargs = {})JQ
+pkg.torch.onnx.name_scopes3['', 'model', 'model.gfe', 'model.gfe.2', 'relu_3']J‘
+pkg.torch.onnx.stack_traceòFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 187, in forward
+    gfe = self.gfe(down)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+¬
+relu_3
+model.gfe.3.weight
+model.gfe.3.bias
+getitem_12node_Conv_53"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@@@@ 
+Ž	
+
+getitem_12relu_4node_relu_4"ReluJ¹
+	namespace«: __main__.FastSCNNExport/model: __main__.FastSCNN/model.gfe: torch.nn.modules.container.Sequential/model.gfe.5: torch.nn.modules.activation.ReLU/relu_4: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchy’['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J‰
+pkg.torch.onnx.fx_nodeo%relu_4 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_12,), kwargs = {})JQ
+pkg.torch.onnx.name_scopes3['', 'model', 'model.gfe', 'model.gfe.5', 'relu_4']J‘
+pkg.torch.onnx.stack_traceòFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 187, in forward
+    gfe = self.gfe(down)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+¬
+relu_4
+model.gfe.6.weight
+model.gfe.6.bias
+getitem_15node_Conv_54"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@@@@ 
+Ž	
+
+getitem_15relu_5node_relu_5"ReluJ¹
+	namespace«: __main__.FastSCNNExport/model: __main__.FastSCNN/model.gfe: torch.nn.modules.container.Sequential/model.gfe.8: torch.nn.modules.activation.ReLU/relu_5: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchy’['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J‰
+pkg.torch.onnx.fx_nodeo%relu_5 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_15,), kwargs = {})JQ
+pkg.torch.onnx.name_scopes3['', 'model', 'model.gfe', 'model.gfe.8', 'relu_5']J‘
+pkg.torch.onnx.stack_traceòFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 187, in forward
+    gfe = self.gfe(down)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+Ø	
+relu_5
+val_28mean	node_mean"
+ReduceMean*
+keepdims *
+noop_with_empty_axes  J½
+	namespace¯: __main__.FastSCNNExport/model: __main__.FastSCNN/model.gfe: torch.nn.modules.container.Sequential/model.gfe.9: torch.nn.modules.pooling.AdaptiveAvgPool2d/mean: aten.mean.dimJ»
+pkg.torch.onnx.class_hierarchy˜['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.AdaptiveAvgPool2d', 'aten.mean.dim']JŽ
+pkg.torch.onnx.fx_nodet%mean : [num_users=1] = call_function[target=torch.ops.aten.mean.dim](args = (%relu_5, [-1, -2], True), kwargs = {})JO
+pkg.torch.onnx.name_scopes1['', 'model', 'model.gfe', 'model.gfe.9', 'mean']Jš
+pkg.torch.onnx.stack_traceûFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 187, in forward
+    gfe = self.gfe(down)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\pooling.py", line 1500, in forward
+    return F.adaptive_avg_pool2d(input, self.output_size)
+È
+mean
+ 
+ 
+val_32upsample_bilinear2dnode_upsample_bilinear2d"Resize*
+mode"linear *
+cubic_coeff_a  @¿ *7
+coordinate_transformation_mode"pytorch_half_pixel *
+exclude_outside  *
+nearest_mode"floor *
+	antialias  *
+extrapolation_value     *&
+keep_aspect_ratio_policy"stretch Jq
+	namespaced: __main__.FastSCNNExport/model: __main__.FastSCNN/upsample_bilinear2d: aten.upsample_bilinear2d.vecJr
+pkg.torch.onnx.class_hierarchyP['__main__.FastSCNNExport', '__main__.FastSCNN', 'aten.upsample_bilinear2d.vec']J²
+pkg.torch.onnx.fx_node—%upsample_bilinear2d : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%mean, [64, 64], False, None), kwargs = {})JB
+pkg.torch.onnx.name_scopes$['', 'model', 'upsample_bilinear2d']J¬
+pkg.torch.onnx.stack_traceFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 188, in forward
+    gfe_up = F.interpolate(gfe, size=down.size()[2:], mode="bilinear", align_corners=False)
+Ó
+relu_2
+upsample_bilinear2dcatnode_cat"Concat*
+axis JU
+	namespaceH: __main__.FastSCNNExport/model: __main__.FastSCNN/cat: aten.cat.defaultJf
+pkg.torch.onnx.class_hierarchyD['__main__.FastSCNNExport', '__main__.FastSCNN', 'aten.cat.default']Jœ
+pkg.torch.onnx.fx_node%cat : [num_users=1] = call_function[target=torch.ops.aten.cat.default](args = ([%relu_2, %upsample_bilinear2d], 1), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'model', 'cat']Jý
+pkg.torch.onnx.stack_traceÞFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 190, in forward
+    fused = torch.cat([down, gfe_up], dim=1)
+«
+cat
+model.fuse.0.weight
+model.fuse.0.bias
+getitem_18node_Conv_55"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@ @ @ @  
+–	
+
+getitem_18relu_6node_relu_6"ReluJ»
+	namespace­: __main__.FastSCNNExport/model: __main__.FastSCNN/model.fuse: torch.nn.modules.container.Sequential/model.fuse.2: torch.nn.modules.activation.ReLU/relu_6: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchy’['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J‰
+pkg.torch.onnx.fx_nodeo%relu_6 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_18,), kwargs = {})JS
+pkg.torch.onnx.name_scopes5['', 'model', 'model.fuse', 'model.fuse.2', 'relu_6']J•
+pkg.torch.onnx.stack_traceöFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 191, in forward
+    fused = self.fuse(fused)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+º
+relu_6
+model.classifier.0.weight
+model.classifier.0.bias
+getitem_21node_Conv_56"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@@@@ 
+²	
+
+getitem_21relu_7node_relu_7"ReluJÇ
+	namespace¹: __main__.FastSCNNExport/model: __main__.FastSCNN/model.classifier: torch.nn.modules.container.Sequential/model.classifier.2: torch.nn.modules.activation.ReLU/relu_7: aten.relu.defaultJµ
+pkg.torch.onnx.class_hierarchy’['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']J‰
+pkg.torch.onnx.fx_nodeo%relu_7 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_21,), kwargs = {})J_
+pkg.torch.onnx.name_scopesA['', 'model', 'model.classifier', 'model.classifier.2', 'relu_7']J™
+pkg.torch.onnx.stack_traceúFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 193, in forward
+    out = self.classifier(fused)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 144, in forward
+    return F.relu(input, inplace=self.inplace)
+†
+relu_7
+model.classifier.3.weight
+model.classifier.3.biasconv2d_8node_conv2d_8"Conv*
+group *
+auto_pad"NOTSET *
+	dilations@@ *
+strides@@ *
+pads@ @ @ @  JÇ
+	namespace¹: __main__.FastSCNNExport/model: __main__.FastSCNN/model.classifier: torch.nn.modules.container.Sequential/model.classifier.3: torch.nn.modules.conv.Conv2d/conv2d_8: aten.conv2d.defaultJ³
+pkg.torch.onnx.class_hierarchy['__main__.FastSCNNExport', '__main__.FastSCNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']JÃ
+pkg.torch.onnx.fx_node¨%conv2d_8 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_7, %p_model_classifier_3_weight, %p_model_classifier_3_bias), kwargs = {})Ja
+pkg.torch.onnx.name_scopesC['', 'model', 'model.classifier', 'model.classifier.3', 'conv2d_8']J¡
+pkg.torch.onnx.stack_trace‚File "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 193, in forward
+    out = self.classifier(fused)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\Aditya Dagar\anaconda3\Lib\site-packages\torch\nn\modules\conv.py", line 548, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+Î
+conv2d_8
+ 
+ 
+val_44upsample_bilinear2d_1node_upsample_bilinear2d_1"Resize*
+mode"linear *
+cubic_coeff_a  @¿ *7
+coordinate_transformation_mode"pytorch_half_pixel *
+exclude_outside  *
+nearest_mode"floor *
+	antialias  *
+extrapolation_value     *&
+keep_aspect_ratio_policy"stretch Js
+	namespacef: __main__.FastSCNNExport/model: __main__.FastSCNN/upsample_bilinear2d_1: aten.upsample_bilinear2d.vecJr
+pkg.torch.onnx.class_hierarchyP['__main__.FastSCNNExport', '__main__.FastSCNN', 'aten.upsample_bilinear2d.vec']Jº
+pkg.torch.onnx.fx_nodeŸ%upsample_bilinear2d_1 : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%conv2d_8, [512, 512], False, None), kwargs = {})JD
+pkg.torch.onnx.name_scopes&['', 'model', 'upsample_bilinear2d_1']Jž
+pkg.torch.onnx.stack_traceÿFile "C:\vs code\finalProject\androidWeatherTrain.py", line 276, in forward
+    out = self.model(x)
+  File "C:\vs code\finalProject\androidWeatherTrain.py", line 194, in forward
+    out = F.interpolate(out, size=size, mode="bilinear", align_corners=False)
+ò
+upsample_bilinear2d_1masknode_argmax"ArgMax*
+axis *
+keepdims *
+select_last_index  JB
+	namespace5: __main__.FastSCNNExport/argmax: aten.argmax.defaultJT
+pkg.torch.onnx.class_hierarchy2['__main__.FastSCNNExport', 'aten.argmax.default']JŸ
+pkg.torch.onnx.fx_node„%argmax : [num_users=1] = call_function[target=torch.ops.aten.argmax.default](args = (%upsample_bilinear2d_1, 1, True), kwargs = {})J,
+pkg.torch.onnx.name_scopes['', 'argmax']J›
+pkg.torch.onnx.stack_trace}File "C:\vs code\finalProject\androidWeatherTrain.py", line 277, in forward
+    return torch.argmax(out, dim=1, keepdim=True)
+main_graph*m Bmodel.downsample.0.weightj$
+locationweatherAndroid.onnx.dataj
+offset4480j
+length3456p*  Bmodel.downsample.0.biasJ€t\>†{Ä¾b%­?Óš=Ôò˜¾Ÿ²¿Ri°¿±É¿É.W?ðæ×? Ò“>NSÒ¿Z‡±¿ïìÏ¿_“­?Ò·î¾Ø+Ð?ÖÕÀ¿G	j>I Ò?ZÅ™¾ŠÝj¿Û"Ñ?S\¦¿—ÈÎ?"VP?•¥<˜½ú¾R¼r¿¡¿š…Ç<8qå>*à0Bmodel.downsample.3.biasJÀ§5>ºë>ƒ.Ø¿OT¿¾¬\?gŒ¿»y`?…;¾+%p>¯W?‹€J>|ÆÈ¿?Ï¿-•¿xn?þ÷K>ÎÎõ¿2.I?¡óÏ¾y‘Ï¿âž?ˆÒ¼¿ö?¤¿O“k?@~?@u¿§??ã ƒ½ƒoo½i\¾€Ø?×H†>ÓÕ°=Ë‡¿`Z‡½\(	?$±ƒ¿ÒY,¾0æ =nB¿zÁ?æú¿Ëch>ä=>\j‘>€JÞ<ô6¿* @Bmodel.downsample.6.biasJ€PÈ[¾vm¿Ø;é¾×ä†¾ÉÐ5=ž@>Ñmà¾T”Ê½`Ä>Y—°¾U?’°;?ªC>Æ‡ö¾%º²¾9â¾¢d‚¿aìõ½iø>½rœc¾¯Åz?Îµ¿cY¾ÉÂK>~(Ê¾Ó,û>¢z£>MŽ¿
+µ¾ô>XOš?lyÔ½l¡Ò¾=B>’­¾Ä-V>z
+*?0Q:¾G1•?˜kO¿zhâ¾ä–T?é‘Â>½—Š?±4Ð?>1¾§"¾„Ø>s,¿"Ç>êƒ½?ª¢ã¾8™‚¾¿>?¤y0¿:€$=j30?\¸™?`¾Àšá?¨œœ>:\j¾D>ÿ¾NÌ†=*™@Bmodel.gfe.0.biasJ€u€î>87Ï>Êþ¿5«m?)£?,á=b?léø>eÛ»ˆK“>»j¿RšK?[¬h>Ù¨>â‰¾á®ç½š¬£>$°í>ÕË½ÎDÙ>œ?Åä">t€
+>2êŽ>>>î4¾ô°¸>‡´·>èÊ>a –=·$¿½?þ0?é×á¾t…>Ð˜>Â¶…> Òñ¹·Í7>&ïK½v#?ã#K¿â¡“=KË{?"ò>Ì Û>Ž¬†¾õÎ^>(’>©EÃ>ÊEà>8zó<ŸB‚?užé>D±ó>ø³B¿Àõû=ðœ3½V:¸¾0Ù>›>\ý¯½ý§˜>*Z`Bmodel.gfe.3.biasj$
+locationweatherAndroid.onnx.dataj
+offset0j
+length384p*]€Bmodel.gfe.6.biasj$
+locationweatherAndroid.onnx.dataj
+offset384j
+length512p*^€Bmodel.fuse.0.biasj$
+locationweatherAndroid.onnx.dataj
+offset896j
+length512p*e€Bmodel.classifier.0.biasj$
+locationweatherAndroid.onnx.dataj
+offset1408j
+length512p*n€Bmodel.classifier.3.weightj$
+locationweatherAndroid.onnx.dataj
+offset1920j
+length2560p*3Bmodel.classifier.3.biasJŽl#> ½§;0R8H™ö½ÆO9½*n0 Bmodel.downsample.3.weightj$
+locationweatherAndroid.onnx.dataj
+offset7936j
+length55296p*q@0Bmodel.downsample.6.weightj$
+locationweatherAndroid.onnx.dataj
+offset161536j
+length110592p*j@@Bmodel.gfe.0.weightj$
+locationweatherAndroid.onnx.dataj
+offset272128j
+length147456p*j`@Bmodel.gfe.3.weightj$
+locationweatherAndroid.onnx.dataj
+offset419584j
+length221184p*k€`Bmodel.gfe.6.weightj$
+locationweatherAndroid.onnx.dataj
+offset640768j
+length442368p*k€ÀBmodel.fuse.0.weightj$
+locationweatherAndroid.onnx.dataj
+offset63232j
+length98304p*t€€Bmodel.classifier.0.weightj$
+locationweatherAndroid.onnx.dataj
+offset1083136j
+length589824p*Bval_28Jÿÿÿÿÿÿÿÿþÿÿÿÿÿÿÿ*.Bval_32J        €       @       @       *.Bval_44J                             ZÇ
+input
+
+
+
+€
+€"=
+/pkg.torch.export.graph_signature.InputSpec.kind
+USER_INPUT"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"&
+!pkg.torch.onnx.original_node_namexbŽ
+mask
+
+
+
+€
+€"?
+0pkg.torch.export.graph_signature.OutputSpec.kindUSER_OUTPUT"+
+!pkg.torch.onnx.original_node_nameargmaxj3
+model.downsample.0.weight
+
+ 
+
+
+j%
+model.downsample.0.bias
+
+
+ j%
+model.downsample.3.bias
+
+
+0j%
+model.downsample.6.bias
+
+
+@j
+model.gfe.0.bias
+
+
+@j
+model.gfe.3.bias
+
+
+`j
+model.gfe.6.bias
+	
+€j 
+model.fuse.0.bias
+	
+€j&
+model.classifier.0.bias
+	
+€jó
+model.classifier.3.weight
+
+
+€
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"@
+!pkg.torch.onnx.original_node_namep_model_classifier_3_weightjâ
+model.classifier.3.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone">
+!pkg.torch.onnx.original_node_namep_model_classifier_3_biasj3
+model.downsample.3.weight
+
+0
+ 
+
+j3
+model.downsample.6.weight
+
+@
+0
+
+j,
+model.gfe.0.weight
+
+@
+@
+
+j,
+model.gfe.3.weight
+
+`
+@
+
+j-
+model.gfe.6.weight
+
+€
+`
+
+j/
+model.fuse.0.weight
+
+€
+À
+
+j5
+model.classifier.0.weight
+
+€
+€
+
+jR
+val_28
+
+
+"<
+$pkg.onnxscript.optimizer.folded_from['val_26', 'val_27']jd
+val_32
+
+
+"N
+$pkg.onnxscript.optimizer.folded_from&['mean', 'val_29', 'val_30', 'val_31']jh
+val_44
+
+
+"R
+$pkg.onnxscript.optimizer.folded_from*['conv2d_8', 'val_41', 'val_42', 'val_43']j#
+getitem
+
+
+ 
+€
+€j 
+relu
+
+
+ 
+€
+€j%
+	getitem_3
+
+
+0
+€
+€j"
+relu_1
+
+
+0
+€
+€j#
+	getitem_6
+
+
+@
+@
+@j 
+relu_2
+
+
+@
+@
+@j#
+	getitem_9
+
+
+@
+@
+@j 
+relu_3
+
+
+@
+@
+@j$
+
+getitem_12
+
+
+`
+@
+@j 
+relu_4
+
+
+`
+@
+@j%
+
+getitem_15
+
+
+€
+@
+@j!
+relu_5
+
+
+€
+@
+@j
+mean
+
+
+€
+
+j.
+upsample_bilinear2d
+
+
+€
+@
+@j
+cat
+
+
+À
+@
+@j%
+
+getitem_18
+
+
+€
+@
+@j!
+relu_6
+
+
+€
+@
+@j%
+
+getitem_21
+
+
+€
+@
+@j!
+relu_7
+
+
+€
+@
+@j"
+conv2d_8
+
+
+
+@
+@j1
+upsample_bilinear2d_1
+
+
+
+€
+€‚ª$
+0pkg.torch.export.ExportedProgram.graph_signatureõ#
+# inputs
+p_model_downsample_0_weight: PARAMETER target='model.downsample.0.weight'
+p_model_downsample_0_bias: PARAMETER target='model.downsample.0.bias'
+p_model_downsample_1_weight: PARAMETER target='model.downsample.1.weight'
+p_model_downsample_1_bias: PARAMETER target='model.downsample.1.bias'
+p_model_downsample_3_weight: PARAMETER target='model.downsample.3.weight'
+p_model_downsample_3_bias: PARAMETER target='model.downsample.3.bias'
+p_model_downsample_4_weight: PARAMETER target='model.downsample.4.weight'
+p_model_downsample_4_bias: PARAMETER target='model.downsample.4.bias'
+p_model_downsample_6_weight: PARAMETER target='model.downsample.6.weight'
+p_model_downsample_6_bias: PARAMETER target='model.downsample.6.bias'
+p_model_downsample_7_weight: PARAMETER target='model.downsample.7.weight'
+p_model_downsample_7_bias: PARAMETER target='model.downsample.7.bias'
+p_model_gfe_0_weight: PARAMETER target='model.gfe.0.weight'
+p_model_gfe_0_bias: PARAMETER target='model.gfe.0.bias'
+p_model_gfe_1_weight: PARAMETER target='model.gfe.1.weight'
+p_model_gfe_1_bias: PARAMETER target='model.gfe.1.bias'
+p_model_gfe_3_weight: PARAMETER target='model.gfe.3.weight'
+p_model_gfe_3_bias: PARAMETER target='model.gfe.3.bias'
+p_model_gfe_4_weight: PARAMETER target='model.gfe.4.weight'
+p_model_gfe_4_bias: PARAMETER target='model.gfe.4.bias'
+p_model_gfe_6_weight: PARAMETER target='model.gfe.6.weight'
+p_model_gfe_6_bias: PARAMETER target='model.gfe.6.bias'
+p_model_gfe_7_weight: PARAMETER target='model.gfe.7.weight'
+p_model_gfe_7_bias: PARAMETER target='model.gfe.7.bias'
+p_model_fuse_0_weight: PARAMETER target='model.fuse.0.weight'
+p_model_fuse_0_bias: PARAMETER target='model.fuse.0.bias'
+p_model_fuse_1_weight: PARAMETER target='model.fuse.1.weight'
+p_model_fuse_1_bias: PARAMETER target='model.fuse.1.bias'
+p_model_classifier_0_weight: PARAMETER target='model.classifier.0.weight'
+p_model_classifier_0_bias: PARAMETER target='model.classifier.0.bias'
+p_model_classifier_1_weight: PARAMETER target='model.classifier.1.weight'
+p_model_classifier_1_bias: PARAMETER target='model.classifier.1.bias'
+p_model_classifier_3_weight: PARAMETER target='model.classifier.3.weight'
+p_model_classifier_3_bias: PARAMETER target='model.classifier.3.bias'
+b_model_downsample_1_running_mean: BUFFER target='model.downsample.1.running_mean' persistent=True
+b_model_downsample_1_running_var: BUFFER target='model.downsample.1.running_var' persistent=True
+b_model_downsample_1_num_batches_tracked: BUFFER target='model.downsample.1.num_batches_tracked' persistent=True
+b_model_downsample_4_running_mean: BUFFER target='model.downsample.4.running_mean' persistent=True
+b_model_downsample_4_running_var: BUFFER target='model.downsample.4.running_var' persistent=True
+b_model_downsample_4_num_batches_tracked: BUFFER target='model.downsample.4.num_batches_tracked' persistent=True
+b_model_downsample_7_running_mean: BUFFER target='model.downsample.7.running_mean' persistent=True
+b_model_downsample_7_running_var: BUFFER target='model.downsample.7.running_var' persistent=True
+b_model_downsample_7_num_batches_tracked: BUFFER target='model.downsample.7.num_batches_tracked' persistent=True
+b_model_gfe_1_running_mean: BUFFER target='model.gfe.1.running_mean' persistent=True
+b_model_gfe_1_running_var: BUFFER target='model.gfe.1.running_var' persistent=True
+b_model_gfe_1_num_batches_tracked: BUFFER target='model.gfe.1.num_batches_tracked' persistent=True
+b_model_gfe_4_running_mean: BUFFER target='model.gfe.4.running_mean' persistent=True
+b_model_gfe_4_running_var: BUFFER target='model.gfe.4.running_var' persistent=True
+b_model_gfe_4_num_batches_tracked: BUFFER target='model.gfe.4.num_batches_tracked' persistent=True
+b_model_gfe_7_running_mean: BUFFER target='model.gfe.7.running_mean' persistent=True
+b_model_gfe_7_running_var: BUFFER target='model.gfe.7.running_var' persistent=True
+b_model_gfe_7_num_batches_tracked: BUFFER target='model.gfe.7.num_batches_tracked' persistent=True
+b_model_fuse_1_running_mean: BUFFER target='model.fuse.1.running_mean' persistent=True
+b_model_fuse_1_running_var: BUFFER target='model.fuse.1.running_var' persistent=True
+b_model_fuse_1_num_batches_tracked: BUFFER target='model.fuse.1.num_batches_tracked' persistent=True
+b_model_classifier_1_running_mean: BUFFER target='model.classifier.1.running_mean' persistent=True
+b_model_classifier_1_running_var: BUFFER target='model.classifier.1.running_var' persistent=True
+b_model_classifier_1_num_batches_tracked: BUFFER target='model.classifier.1.num_batches_tracked' persistent=True
+x: USER_INPUT
+
+# outputs
+argmax: USER_OUTPUT
+‚8
+2pkg.torch.export.ExportedProgram.range_constraints{}B
+ 
